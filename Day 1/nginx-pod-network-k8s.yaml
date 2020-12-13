@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: nginx-server
-      image: "dev1johndoe/nginx:2.0"
+      image: "dev1johndoe/nginx:latest"
       ports:
        - containerPort: 80
 ---
